@@ -1,0 +1,9 @@
+/* google font poppins */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+/* font awesome link */
+<script src="https://kit.fontawesome.com/229c4eda0f.js" crossorigin="anonymous"></script>
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
