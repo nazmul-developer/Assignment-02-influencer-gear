@@ -35,10 +35,21 @@ nav {
   margin-bottom: 100px;
 }
 
-h1 {
+.main-title {
   font-size: 60px;
   font-weight: 900;
   margin: 0;
+  white-space: nowrap;
+  position: relative;
+}
+
+.main-title::before{
+  content: 'Journey as Influencer';
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: tomato;
+  
 }
 
 .text {
@@ -51,9 +62,16 @@ h1 {
   color: white;
   background-color: #e02c6d;
   padding: 15px 30px;
-  border-radius: 41px;
+  border-radius: 10px;
   border: none;
   cursor: pointer;
+  box-shadow: 0 7px 0 #a5075e;
+  position: relative;
+  top: 0;
+}
+.button:active{
+  top: 5px;
+  box-shadow: 0 2px 0 #a5075e;
 }
 
 .button a {
@@ -154,7 +172,9 @@ hr{
   font-weight: 700;
 }
 
-.see-more a{
+.see-more p a{
+  display: inline-flex;
+  position: absolute;
   color: white;
   margin-left: 5px;
 }
@@ -213,8 +233,17 @@ footer p {
   background-color: #e02c6d;
   padding: 15px 30px;
   border: none;
+  border-radius: 10px;
   cursor: pointer;
+  box-shadow: 0 7px 0 #a5075e;
+  position: relative;
+  top: 0;
 }
+.button-two:active{
+  top: 5px;
+  box-shadow: 0 2px 0 #a5075e;
+}
+
 .button-two a {
   color: white;
   margin-left: 5px;
