@@ -5,21 +5,17 @@
 body {
   font-family: "PT Sans", sans-serif;
 }
-
 /* Header part */
 .main-div {
   margin: 100px;
 }
-
 h2 {
   font-weight: 600;
 }
-
 nav {
   display: flex;
   justify-content: space-between;
 }
-
 .link-item a {
   text-decoration: none;
   margin-right: 20px;
@@ -27,15 +23,13 @@ nav {
   font-weight: 600;
   color: black;
 }
-
 /* section-one style */
-
 .section-one {
-  display: flex;
-  margin-top: 147px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  /* margin-top: 147px; */
   margin-bottom: 100px;
 }
-
 .main-title {
   font-size: 60px;
   font-weight: 900;
@@ -45,174 +39,169 @@ nav {
   color: transparent;
 }
 
-.main-title::before{
-  content: 'Journey as Influencer';
+.main-title::before {
+  content: "Journey as Influencer";
   position: absolute;
   top: 0;
   left: 0;
-  color: tomato; 
-  animation: typing 4s linear infinite; 
+  color: tomato;
+  animation: typing 4s linear infinite;
 }
-
 /* Heading Animation */
 
-@keyframes typing{
+@keyframes typing {
   0% {
-    content: 'J|';
-}
+    content: "J|";
+  }
 
-4% {
-    content: 'Jo|';
-}
+  4% {
+    content: "Jo|";
+  }
 
-8% {
-    content: 'Jou|';
-}
+  8% {
+    content: "Jou|";
+  }
 
-12% {
-    content: 'Jour|';
-}
+  12% {
+    content: "Jour|";
+  }
 
-16% {
-    content: 'Journ|';
-}
+  16% {
+    content: "Journ|";
+  }
 
-20% {
-    content: 'Journe|';
-}
+  20% {
+    content: "Journe|";
+  }
 
-24% {
-    content: 'Journey|';
-}
+  24% {
+    content: "Journey|";
+  }
 
-28% {
-    content: 'Journey |';
-}
+  28% {
+    content: "Journey |";
+  }
 
-32% {
-    content: 'Journey a|';
-}
+  32% {
+    content: "Journey a|";
+  }
 
-36% {
-    content: 'Journey as|';
-}
+  36% {
+    content: "Journey as|";
+  }
 
-40% {
-    content: 'Journey as |';
-}
+  40% {
+    content: "Journey as |";
+  }
 
-44% {
-    content: 'Journey as I|';
-}
+  44% {
+    content: "Journey as I|";
+  }
 
-48% {
-    content: 'Journey as In|';
-}
+  48% {
+    content: "Journey as In|";
+  }
 
-52% {
-    content: 'Journey as Inf|';
-}
+  52% {
+    content: "Journey as Inf|";
+  }
 
-56% {
-    content: 'Journey as Infl|';
-}
+  56% {
+    content: "Journey as Infl|";
+  }
 
-60% {
-    content: 'Journey as Influ|';
-}
-64% {
-    content: 'Journey as Influe|';
-}
-68% {
-    content: 'Journey as Influen|';
-}
-72% {
-    content: 'Journey as Influenc|';
-}
-74% {
-    content: 'Journey as Influence|';
-}
-76% {
-    content: 'Journey as Influencer|';
-}
-78% {
-    content: 'Journey as Influencer|';
-}
+  60% {
+    content: "Journey as Influ|";
+  }
+  64% {
+    content: "Journey as Influe|";
+  }
+  68% {
+    content: "Journey as Influen|";
+  }
+  72% {
+    content: "Journey as Influenc|";
+  }
+  74% {
+    content: "Journey as Influence|";
+  }
+  76% {
+    content: "Journey as Influencer|";
+  }
+  78% {
+    content: "Journey as Influencer|";
+  }
 
-79% {
-    content: 'Journey as Influence|';
+  79% {
+    content: "Journey as Influence|";
+  }
+  80% {
+    content: "Journey as Influenc|";
+  }
+  81% {
+    content: "Journey as Influen|";
+  }
+  82% {
+    content: "Journey as Influe|";
+  }
+  83% {
+    content: "Journey as Influ|";
+  }
+  84% {
+    content: "Journey as Infl|";
+  }
+  85% {
+    content: "Journey as Inf|";
+  }
+  86% {
+    content: "Journey as In|";
+  }
+  87% {
+    content: "Journey as I|";
+  }
+  88% {
+    content: "Journey as |";
+  }
+  89% {
+    content: "Journey as|";
+  }
+  90% {
+    content: "Journey a|";
+  }
+  91% {
+    content: "Journey |";
+  }
+  92% {
+    content: "Journey|";
+  }
+  93% {
+    content: "Journe|";
+  }
+  94% {
+    content: "Journ|";
+  }
+  95% {
+    content: "Jour|";
+  }
+  96% {
+    content: "Jou|";
+  }
+  97% {
+    content: "Jo|";
+  }
+  98% {
+    content: "J|";
+  }
+  99% {
+    content: "|";
+  }
+  100% {
+    content: "|";
+  }
 }
-80% {
-    content: 'Journey as Influenc|';
-}
-81% {
-    content: 'Journey as Influen|';
-}
-82% {
-    content: 'Journey as Influe|';
-}
-83% {
-    content: 'Journey as Influ|';
-}
-84% {
-    content: 'Journey as Infl|';
-}
-85% {
-    content: 'Journey as Inf|';
-}
-86% {
-    content: 'Journey as In|';
-}
-87% {
-    content: 'Journey as I|';
-}
-88% {
-    content: 'Journey as |';
-}
-89% {
-    content: 'Journey as|';
-}
-90% {
-    content: 'Journey a|';
-}
-91% {
-    content: 'Journey |';
-}
-92% {
-    content: 'Journey|';
-}
-93% {
-    content: 'Journe|';
-}
-94% {
-    content: 'Journ|';
-}
-95% {
-    content: 'Jour|';
-}
-96% {
-    content: 'Jou|';
-}
-97% {
-    content: 'Jo|';
-}
-98% {
-    content: 'J|';
-}
-99% {
-    content: '|';
-}
-100% {
-    content: '|';
-}
-
-}
-
-
 .text {
   font-weight: 700;
 }
-
 .button {
   font-size: 15px;
   font-weight: 600;
@@ -226,7 +215,7 @@ nav {
   position: relative;
   top: 0;
 }
-.button:active{
+.button:active {
   top: 5px;
   box-shadow: 0 2px 0 #a5075e;
 }
@@ -235,21 +224,18 @@ nav {
   color: white;
   margin-left: 5px;
 }
-
 /* Compani Logo Section */
-hr{
-  border:1px solid lightsteelblue;
+hr {
+  border: 1px solid lightsteelblue;
 }
 
-.logo{
+.logo {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   margin-top: 25px;
   margin-bottom: 25px;
 }
-
-
 /* Section-Two style */
 
 .section-two {
@@ -261,7 +247,6 @@ hr{
   grid-template-columns: repeat(3, 1fr);
   gap: 25px;
 }
-
 .middle-heading {
   font-size: 28px;
   font-weight: 700;
@@ -272,20 +257,16 @@ hr{
   margin: 15px;
   border-radius: 5px;
 }
-
 .box {
   padding-left: 15px;
   padding-right: 15px;
 }
-
 .fa-star.filled {
   color: #fb8200;
 }
-
 .fa-star.empty {
   color: gray;
 }
-
 .product-name {
   font-weight: 700;
   font-size: 28px;
@@ -293,27 +274,22 @@ hr{
   color: #18191f;
   margin: 0;
 }
-
 .price {
   font-size: 25px;
   margin: 0;
 }
-
 .Retting {
   margin-left: 10px;
 }
-
 .product-list {
   display: flex;
   align-items: center;
 }
-
 .paragraph {
   font-weight: bold;
   font-size: 15px;
   margin: 0;
 }
-
 .product-details {
   width: 329px;
   height: 476px;
@@ -321,69 +297,56 @@ hr{
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 }
-
-.see-more{
+.see-more {
   color: #e02c6d;
   font-size: 20px;
   font-weight: 700;
 }
-
-.see-more p a{
+.see-more p a {
   display: inline-flex;
   position: absolute;
   color: white;
   margin-left: 5px;
 }
-
 /* Footer part */
-
-footer{
-background-color: black;
-background-position: bottom;
-height: 250px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+footer {
+  background-color: black;
+  background-position: bottom;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 footer h2 {
   color: white;
 }
-
 footer p {
   color: whitesmoke;
   margin: 0;
 }
-
 .social-media {
   margin-top: 10px;
- 
 }
-
-.social-media a i{
+.social-media a i {
   color: white;
   margin-right: 15px;
   padding: 10px;
   border: 1px solid;
   border-radius: 20px;
-  
 }
 
-
-
 /* Section Three */
-
 .imgage-size {
   width: 400px;
   height: 300px;
   border-radius: 15px;
 }
-
-.text-part{
+.text-part {
   margin-left: 80px;
 }
-.button-two{
+.button-two {
   font-size: 15px;
   font-weight: 600;
   color: white;
@@ -396,7 +359,7 @@ footer p {
   position: relative;
   top: 0;
 }
-.button-two:active{
+.button-two:active {
   top: 5px;
   box-shadow: 0 2px 0 #a5075e;
 }
@@ -405,7 +368,40 @@ footer p {
   color: white;
   margin-left: 5px;
 }
+
 .bonus-part {
   display: flex;
   margin-top: 100px;
+}
 
+/* Media querise */
+/* Mobile Devise */
+@media only screen and (max-width: 688px) {
+  .all-product {
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+  .section-one {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-div {
+    margin: 0px;
+  }
+}
+
+/* Tablet Device */
+@media only screen and (min-width: 688px) and(max-width:992px) {
+  .all-product {
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-one {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-div {
+    margin: 0px;
+  }
+}
