@@ -1,4 +1,5 @@
 /* google font poppins */
+
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
 body {
@@ -52,6 +53,8 @@ nav {
   color: tomato; 
   animation: typing 4s linear infinite; 
 }
+
+/* Heading Animation */
 
 @keyframes typing{
   0% {
@@ -256,7 +259,6 @@ hr{
 .all-product {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* justify-content: space-between; */
   gap: 25px;
 }
 
@@ -332,6 +334,7 @@ hr{
   color: white;
   margin-left: 5px;
 }
+
 /* Footer part */
 
 footer{
