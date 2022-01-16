@@ -41,6 +41,7 @@ nav {
   margin: 0;
   white-space: nowrap;
   position: relative;
+  color: transparent;
 }
 
 .main-title::before{
@@ -48,9 +49,162 @@ nav {
   position: absolute;
   top: 0;
   left: 0;
-  color: tomato;
-  
+  color: tomato; 
+  animation: typing 4s linear infinite; 
 }
+
+@keyframes typing{
+  0% {
+    content: 'J|';
+}
+
+4% {
+    content: 'Jo|';
+}
+
+8% {
+    content: 'Jou|';
+}
+
+12% {
+    content: 'Jour|';
+}
+
+16% {
+    content: 'Journ|';
+}
+
+20% {
+    content: 'Journe|';
+}
+
+24% {
+    content: 'Journey|';
+}
+
+28% {
+    content: 'Journey |';
+}
+
+32% {
+    content: 'Journey a|';
+}
+
+36% {
+    content: 'Journey as|';
+}
+
+40% {
+    content: 'Journey as |';
+}
+
+44% {
+    content: 'Journey as I|';
+}
+
+48% {
+    content: 'Journey as In|';
+}
+
+52% {
+    content: 'Journey as Inf|';
+}
+
+56% {
+    content: 'Journey as Infl|';
+}
+
+60% {
+    content: 'Journey as Influ|';
+}
+64% {
+    content: 'Journey as Influe|';
+}
+68% {
+    content: 'Journey as Influen|';
+}
+72% {
+    content: 'Journey as Influenc|';
+}
+74% {
+    content: 'Journey as Influence|';
+}
+76% {
+    content: 'Journey as Influencer|';
+}
+78% {
+    content: 'Journey as Influencer|';
+}
+
+79% {
+    content: 'Journey as Influence|';
+}
+80% {
+    content: 'Journey as Influenc|';
+}
+81% {
+    content: 'Journey as Influen|';
+}
+82% {
+    content: 'Journey as Influe|';
+}
+83% {
+    content: 'Journey as Influ|';
+}
+84% {
+    content: 'Journey as Infl|';
+}
+85% {
+    content: 'Journey as Inf|';
+}
+86% {
+    content: 'Journey as In|';
+}
+87% {
+    content: 'Journey as I|';
+}
+88% {
+    content: 'Journey as |';
+}
+89% {
+    content: 'Journey as|';
+}
+90% {
+    content: 'Journey a|';
+}
+91% {
+    content: 'Journey |';
+}
+92% {
+    content: 'Journey|';
+}
+93% {
+    content: 'Journe|';
+}
+94% {
+    content: 'Journ|';
+}
+95% {
+    content: 'Jour|';
+}
+96% {
+    content: 'Jou|';
+}
+97% {
+    content: 'Jo|';
+}
+98% {
+    content: 'J|';
+}
+99% {
+    content: '|';
+}
+100% {
+    content: '|';
+}
+
+}
+
 
 .text {
   font-weight: 700;
