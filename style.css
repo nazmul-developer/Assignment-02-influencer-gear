@@ -5,6 +5,7 @@ body {
   font-family: "PT Sans", sans-serif;
 }
 
+/* Header part */
 .main-div {
   margin: 100px;
 }
@@ -27,6 +28,7 @@ nav {
 }
 
 /* section-one style */
+
 .section-one {
   display: flex;
   margin-top: 147px;
@@ -56,4 +58,77 @@ h1 {
 .button a {
   color: white;
   margin-left: 5px;
+}
+
+/* Section-Two style */
+
+.section-two {
+  margin-top: 100px;
+}
+
+.all-product {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* justify-content: space-between; */
+  gap: 25px;
+}
+
+.middle-heading {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.all-image {
+  margin: 15px;
+  border-radius: 5px;
+}
+
+.box {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.fa-star.filled {
+  color: #fb8200;
+}
+
+.fa-star.empty {
+  color: gray;
+}
+
+.product-name {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+  margin: 0;
+}
+
+.price {
+  font-size: 25px;
+  margin: 0;
+}
+
+.Retting {
+  margin-left: 10px;
+}
+
+.product-list {
+  display: flex;
+  align-items: center;
+}
+
+.paragraph {
+  font-weight: bold;
+  font-size: 15px;
+  margin: 0;
+}
+
+.product-details {
+  width: 329px;
+  height: 476px;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
 }
