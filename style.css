@@ -1,9 +1,59 @@
 /* google font poppins */
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 
-/* font awesome link */
-<script src="https://kit.fontawesome.com/229c4eda0f.js" crossorigin="anonymous"></script>
-
 body {
   font-family: "PT Sans", sans-serif;
+}
+
+.main-div {
+  margin: 100px;
+}
+
+h2 {
+  font-weight: 600;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-item a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  color: black;
+}
+
+/* section-one style */
+.section-one {
+  display: flex;
+  margin-top: 147px;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  margin: 0;
+}
+
+.text {
+  font-weight: 700;
+}
+
+.button {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #e02c6d;
+  padding: 10px 24px;
+  border-radius: 41px;
+  border: none;
+  cursor: pointer;
+}
+
+.button a {
+  color: white;
+  margin-left: 5px;
 }
