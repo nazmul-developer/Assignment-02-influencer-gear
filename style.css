@@ -32,6 +32,7 @@ nav {
 .section-one {
   display: flex;
   margin-top: 147px;
+  margin-bottom: 100px;
 }
 
 h1 {
@@ -49,7 +50,7 @@ h1 {
   font-weight: 600;
   color: white;
   background-color: #e02c6d;
-  padding: 10px 24px;
+  padding: 15px 30px;
   border-radius: 41px;
   border: none;
   cursor: pointer;
@@ -59,6 +60,20 @@ h1 {
   color: white;
   margin-left: 5px;
 }
+
+/* Compani Logo Section */
+hr{
+  border:1px solid lightsteelblue;
+}
+
+.logo{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 
 /* Section-Two style */
 
@@ -132,3 +147,79 @@ h1 {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
   border-radius: 5px;
 }
+
+.see-more{
+  color: #e02c6d;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.see-more a{
+  color: white;
+  margin-left: 5px;
+}
+/* Footer part */
+
+footer{
+background-color: black;
+background-position: bottom;
+height: 250px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+footer h2 {
+  color: white;
+}
+
+footer p {
+  color: whitesmoke;
+  margin: 0;
+}
+
+.social-media {
+  margin-top: 10px;
+ 
+}
+
+.social-media a i{
+  color: white;
+  margin-right: 15px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 20px;
+  
+}
+
+
+
+/* Section Three */
+
+.imgage-size {
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+.text-part{
+  margin-left: 80px;
+}
+.button-two{
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+  background-color: #e02c6d;
+  padding: 15px 30px;
+  border: none;
+  cursor: pointer;
+}
+.button-two a {
+  color: white;
+  margin-left: 5px;
+}
+.bonus-part {
+  display: flex;
+  margin-top: 100px;
+
